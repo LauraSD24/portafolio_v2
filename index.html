@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container_scroll">
+        <figure class="figure_scroll">
+            <i class="fa-solid fa-arrow-up icon_scroll"></i>
+        </figure>
+    </div>
+    <div class="portfolio">
+        <nav class="menu">
+            <div class="menu__container">
+                <a class="menu__name" href="index.html">Laura SD
+                    <span class="span__name">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </a>
+                <input id="menu_input" class="input_menu" type="checkbox">
+                <label class="icon_menu" for="menu_input"></label>
+                <ul class="list list__responsive">
+                    <li class="list__items"><a data-id="0" class="list__a" href="#inicio"><span class="element__before"></span> Inicio</a></li>
+                    <li class="list__items"><a data-id="1" class="list__a" href="#sobre__mi"><span class="element__before"></span> Sobre mí</a></li>
+                    <li class="list__items"><a data-id="2" class="list__a" href="#habilidades"><span class="element__before"></span> Habilidades</a></li>
+                    <li class="list__items"><a data-id="3" class="list__a" href="#proyectos"><span class="element__before"></span> Proyectos</a></li>
+                    <li class="list__items"><a data-id="4" class="list__a list__a__contact" href="#contacto"><span class="element__before"></span> Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="sections sec_inicio" id="inicio" data-id="0">
+            <!-- <h1 class="titulos titulo__inicio">Inicio</h1> -->
+            <div class="contenedores contenedor__inicio">
+                <div class="texto__inicio">
+                    <!-- <h2 class="saludo__inicio">Mi nombre es:</h2> -->
+                    <h2 class="nombre__inicio">Hola, Soy <span>Laura</span></h2>
+                    <span class="soy_inicio">Soy <span class="ocupaciones"></span></span>                    
+                    <p class="descripcion__inicio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ea corrupti hic tempore error mollitia nesciunt in delectus perferendis officiis fugiat molestias quo excepturi labore maiores rerum quis, possimus obcaecati.
+                    </p>
+                    <a class="botones boton__inicio" href="#contacto">Contacto</a>
+                </div>
+                <img class="images img__inicio" src="img/Code review-amico.svg" alt="">
+            </div>
+        </section>
+        <section class="sections" id="sobre__mi" data-id="1">
+            <h1 class="titulos sobre__mi__titulo">Sobre mí</h1>
+            <div class="contenedores sobre__mi__contenedor">
+                <div class="sobre__mi__informacion">
+                    <p class="sobre__mi__descripcion">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero commodi nihil consequatur iure neque corrupti asperiores soluta adipisci voluptate quasi corporis, in nostrum quam porro tempora aliquid? Quis, aspernatur reiciendis.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa a minus aliquam assumenda, iure expedita pariatur consequatur? Sapiente laudantium facere nisi neque. Dolores distinctio repudiandae repellat nobis, ratione provident necessitatibus.
+                    </p>
+                    <div class="contenedor__datos__personales">
+                        <h3 class="sobre__mi__titulo__datos">Datos personales</h3>
+                        <p class="sobre__mi__datos">Nombre: <span class="datos__personales">Laura Salguedo Delgado</span></p>
+                        <p class="sobre__mi__datos">Correo: <span class="datos__personales"></span>laurasalguedo24@gmail.com</p>
+                        <p class="sobre__mi__datos">Dirección: <span class="datos__personales">Arjona, Bolívar</span></p>
+                        <p class="sobre__mi__datos">Teléfono: <span class="datos__personales">3113261681</span></p>
+                    </div>
+                    <a href="file/Diseño del portafolio.odt" download="CV_Laura" class="botones sobre__mi__descargarcv">Descargar CV</a>
+                </div>
+                <img src="img/img_sobre_mi.jpg" alt="" class="images sobre__mi__imagen">
+            </div>
+        </section>
+        <section class="sections" id="habilidades" data-id="2">
+            <h1 class="titulos habilidades__titulo">Habilidades</h1>
+            <div class="contenedores habilidades__contenedor">
+                    <div class="card card__habilidades">
+                        <h1 class="habilidades__title fronted__titulo">Fronted</h1>
+                        <ul class="list__habilidades fronted__lista">
+                            <li class="habilidades__items fronted__items"><figure class="icons icon__html"></figure>Html</li>
+                            <li class="habilidades__items fronted__items"><figure class="icons icon__css"></figure>Css</li>
+                            <li class="habilidades__items fronted__items"><figure class="icons icon__javascript"></figure>Javascript</li>
+                            <li class="habilidades__items fronted__items"><figure class="icons icon__React"></figure>React</li>
+                        </ul>
+                    </div>
+                    <div class="card card__habilidades">
+                        <h1 class="habilidades__title backend__titulo">Backend</h1>
+                        <ul class="list__habilidades backend__lista">
+                            <li class="habilidades__items backend__items"><figure class="icons icons__python"></figure>Python</li>
+                            <li class="habilidades__items backend__items"><figure class="icons icons__flask"></figure>Flask</li>
+                            <li class="habilidades__items backend__items"><figure class="icons icons__javascript"></figure>Javascript</li>
+                            <li class="habilidades__items backend__items"><figure class="icons icons__Node"></figure>Node Js</li>
+                        </ul>
+                    </div>
+                    <div class="card card__habilidades">
+                        <h1 class="habilidades__title habilidades__blandas__titulo">Habilidades blandas</h1>
+                        <ul class="list__habilidades habilidades__blandas__lista">
+                            <li class="habilidades__items habilidades__blandas__items"><figure class="icons"></figure></li></li>
+                            <li class="habilidades__items habilidades__blandas__items"><figure class="icons"></figure></li></li>
+                            <li class="habilidades__items habilidades__blandas__items"><figure class="icons"></figure></li></li>
+                            <li class="habilidades__items habilidades__blandas__items"><figure class="icons"></figure></li></li>
+                        </ul>
+                    </div>
+                </div>                  
+        </section>
+        <!-- <div class="container_modal">
+            <div class="modal">
+                <h2 class="title_modal"></h2>
+                <p class="paragraph_modal"></p>
+                <a target="_blank" href="" class="botones btn__cardinfo btncard1">Ver proyecto</a>
+            </div>
+        </div> -->
+        <section class="sections" id="proyectos" data-id="3">
+            <h1 class="titulos">Proyectos</h1>
+            <div class="contenedores projects__container">
+                <ul class="menu__projects">
+                    <li class="projects__items"><button class="botones btn__projects btn_active">Todos</button></li>
+                    <li class="projects__items"><button class="botones btn__projects">Web</button></li>
+                    <li class="projects__items"><button class="botones btn__projects">App</button></li>
+                    <li class="projects__items"><button class="botones btn__projects">Diseños</button></li>
+                </ul>
+                 <div class="cards__container">
+                   
+                </div>
+            </div>
+        </section>
+        <section class="sections" id="contacto" data-id="4">
+            <h1 class="titulos">Contacto</h1>
+            <div class="contenedores contacto__container">
+                <div class="div__contact container__informacion__contacto">
+                    <h2 class="title__contactanos">Información de contacto</h2>
+                    <div class="icons__contact__container">
+                        <a href="https://wa.me/3113261681" target="_blank" rel="noreferrer noopener">
+                            <figure class="icons icons_contact icon__whapp"></figure>
+                        </a>
+                        <a href="" target="_blank" rel="noreferrer noopener">
+                            <figure href="" class="icons icons_contact icon__Lkdn"></figure>
+                        </a>
+                        <a href="" target="_blank" rel="noreferrer noopener">
+                            <figure class="icons icons_contact icon__git"></figure>
+                        </a>
+                        <a href="" target="_blank" rel="noreferrer noopener">
+                            <figure class="icons icons_contact icon__gmail"></figure>
+                        </a>
+                    </div>
+                </div>
+                <div class="div__contact container__formulario__contacto">
+                    <form class="form_contact" action="https://formspree.io/f/myyalovo" method="POST">
+                        <label for="">Nombre: </label>
+                        <input type="text" class="form__input" name="name">
+                        <label for="">Celular: </label>
+                        <input type="number" class="form__input" name="phone">
+                        <label for="">Correo:</label>
+                        <input type="email" class="form__input" name="email">
+                        <label for="">Mensaje: </label>
+                        <textarea class="form__input form__input__message" name="message" id="" cols="3" rows="5"></textarea>
+                        <button class="botones btn__form_send">Enviar</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </div> 
+    <script type="module" src="js/index.js"></script>
+    <script type="module" src="js/data.js"></script>
+</body>
+</html>
